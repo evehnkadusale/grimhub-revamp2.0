@@ -1,10 +1,13 @@
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import './css/App.css';
 
 function App() {
   return (
-    <h1 className="text-7xl font-bold underline">
-      Hello world!
-    </h1>
+    <Router>
+      
+    </Router>
   );
 }
 
